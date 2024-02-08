@@ -24,7 +24,6 @@ public class Client {
         logistics.planDelivery();
     }
 
-
     // Default to SeaLogistics if no arguments provided or the first argument is not "road"
     private static boolean isRoadLogistics(String[] args) {
         return args.length > 0 && "road".equalsIgnoreCase(args[0]);
